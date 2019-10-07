@@ -2,4 +2,60 @@ body
 {
     margin: 0px;
     padding: 0px;
+    
+}
+
+header
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-flow: row wrap;
+   text-align: center;
+    align-content: flex-start;
+    background-image: url("images/computer.jpg");
+    background-color: rgb(185, 166, 166);
+    border-bottom: 3px red solid;
+    padding: 40px 40px 40px 40px;
+}
+h1
+{
+    font-size: 7em;
+}
+
+h2
+{
+    font-size: 2em;
+    text-align: center;
+}
+nav
+{
+    text-align: right;
+
+}
+
+article
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 40px 40px 40px;
+    text-align: justify;
+}
+
+figure
+{
+    justify-self: center;
+}
+
+
+
+footer
+{
+    text-align: center;
+    background-color: rgb(185, 166, 166);
+    border-top: 3px red solid;
+    padding: 40px 40px 40px 40px;
 }
